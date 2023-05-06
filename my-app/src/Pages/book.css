@@ -1,0 +1,53 @@
+#bookContainer{
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    border: 0px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#movieDetails{
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+   
+    margin: auto;
+    padding-bottom: 20px;
+}
+#moviePoster{
+    width: 20%;
+}
+#moviePoster img{
+    width: 100%;
+}
+#movieName{
+    font-size: 20px;
+    font-weight: bold;
+}
+#form{
+    border: 0px solid red;
+    display: grid;
+    gap: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+#form p{
+   margin: 0;
+   font-size: 14px; 
+}
+#submitBtn{
+    width: 40%;
+    margin: auto;
+    border: none;
+    height: 40px;
+    background-color:rgb(48, 100, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+input,select{
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid red;
+}

@@ -1,0 +1,80 @@
+#showCard{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow:auto;
+    transform-origin: 50% 60%;
+    transition: transform 0.5s, filter 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+#showCard:hover{
+    transform: scale(1.1);
+    position:relative;
+}
+#showPoster img{
+    width: 100%;
+    height: 380px;
+}
+#showName{
+    font-size: 20px;
+    font-family:"open sans", sans-serif;
+    font-weight: 500;
+    margin: 15px;
+}
+#showLang,#showPrem{
+    font-size: 14px;
+    font-family: "open sans", sans-serif;
+    margin: 5px;
+}
+#Showbutton{
+    border: none;
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    font-family:"open sans", sans-serif;
+    border-radius:10px; 
+    background-color:rgb(48, 100, 255);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media (max-width:850px){
+    #showPoster img{
+        width: 100%;
+        height:300px;
+    }
+    #Showbutton{
+        width: 60%;
+        height: 40px;
+        font-size: 16px;
+    }
+    #showName{
+        font-size: 18px;
+    }
+    #showLang,#showPrem{
+        font-size: 14px;
+    } 
+}
+@media (max-width:480px){
+    #showPoster img{
+        width: 100%;
+        height:230px;
+    }
+    #Showbutton{
+        width: 80%;
+        height: 40px;
+        font-size: 16px;
+    }
+    #showName{
+        font-size: 17px;
+    }
+    #showLang,#showPrem{
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,72 @@
+#moreContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    border: 0px solid black;
+    margin-bottom: 100px;
+}
+#singleImage{
+    width: 80%;
+    margin: auto;
+}
+#singleImage img{
+    width: 100%;
+}
+#singleName{
+    font-size: 24px;
+    font-weight: bold;
+}
+#imageContainer{
+    width:40%;
+}
+#singleButtonContainer{
+    margin: auto;
+    text-align: center;
+}
+#booknow{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(48, 100, 255);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#summaryContainer{
+    width: 60%;
+}
+#singleInfo{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#singleInfo p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid black;
+    font-weight: bold;
+    color: gray;
+    width: 30%;
+    font-size: 15px;
+}
+@media (max-width:480px){
+    #moreContainer{
+      display: grid;
+    }
+    #imageContainer{
+        width:100%;
+    }
+    #summaryContainer{
+        width: 100%;
+    }
+    #singleInfo{
+        width: 100%;
+    }
+}
